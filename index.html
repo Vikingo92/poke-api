@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css/style.css">
+    <title>Poke API 🤍|</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <nav id="navbar">
+        <h2>Pokemons</h2>
+        <form id="formulario">
+            <div>
+                <label for="buscar">Buscar
+                    <input id="buscar"  type="text" placeholder="Buscar">
+                </label>
+            </div>
+        </form>
+    </nav><br>
+
+    <main id="render"></main> 
+
+    <template id="template-card">
+        <div class="card">
+            <div class="card-body">
+                <img src="" class="initial-img">
+                <h1 class="card-title">
+                    Pokemon name
+                    <span>hp</span>
+                </h1>
+                <p class="card-text"></p>
+            </div>
+            <div class="description">
+                <div class="card-info">
+                    <h3></h3>
+                    <p>Tipo</p>
+                </div>
+                <div class="card-info">
+                    <h3></h3>
+                    <p>Especie</p>
+                </div>
+                <div class="card-info">
+                    <h3></h3>
+                    <p>Defensa</p>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script src="./app/prueba.js"></script>
+    <script src="./app/script.js"></script>
+</body>
+</html>
